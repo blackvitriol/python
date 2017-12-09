@@ -4,6 +4,8 @@ file index with descriptions:
 1. helloworld.py
 2. GA_HelloWorld.py
 3. Assignment3.py
+4. SierpinskiTriangle.py
+5. ninja.py
 
 > 1. helloworld.py = just a random hello world sample
 
@@ -11,3 +13,7 @@ file index with descriptions:
 
 > 3. Assignment3.py = Built in TensorFlow using Keras, I have developed a 12 layer, deep convolution neural network for image recognition 
 on the CIFAR-10 database. Accuracy achieved: 87%
+
+> 4. SierpinskiTriangle.py = just a random hello world using Python turtle
+
+> 5. ninja.py = playing with python turtle
