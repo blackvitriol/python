@@ -1,0 +1,145 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'design.ui'
+#
+# Created by: PyQt4 UI code generator 4.11.4
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName(_fromUtf8("MainWindow"))
+        MainWindow.resize(565, 588)
+        self.verticalLayoutWidget = QtGui.QWidget(MainWindow)
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(20, 30, 531, 121))
+        self.verticalLayoutWidget.setObjectName(_fromUtf8("verticalLayoutWidget"))
+        self.verticalLayout = QtGui.QVBoxLayout(self.verticalLayoutWidget)
+        self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
+        self.groupBox = QtGui.QGroupBox(self.verticalLayoutWidget)
+        self.groupBox.setObjectName(_fromUtf8("groupBox"))
+        self.pushButton = QtGui.QPushButton(self.groupBox)
+        self.pushButton.setGeometry(QtCore.QRect(250, 20, 115, 30))
+        self.pushButton.setObjectName(_fromUtf8("pushButton"))
+        self.label = QtGui.QLabel(self.groupBox)
+        self.label.setGeometry(QtCore.QRect(10, 30, 261, 20))
+        self.label.setObjectName(_fromUtf8("label"))
+        self.label_2 = QtGui.QLabel(self.groupBox)
+        self.label_2.setGeometry(QtCore.QRect(10, 60, 111, 20))
+        self.label_2.setObjectName(_fromUtf8("label_2"))
+        self.comboBox = QtGui.QComboBox(self.groupBox)
+        self.comboBox.setGeometry(QtCore.QRect(250, 60, 111, 30))
+        self.comboBox.setObjectName(_fromUtf8("comboBox"))
+        self.comboBox.addItem(_fromUtf8(""))
+        self.comboBox.addItem(_fromUtf8(""))
+        self.checkBox = QtGui.QCheckBox(self.groupBox)
+        self.checkBox.setGeometry(QtCore.QRect(430, 90, 91, 25))
+        self.checkBox.setObjectName(_fromUtf8("checkBox"))
+        self.verticalLayout.addWidget(self.groupBox)
+        self.verticalLayoutWidget_2 = QtGui.QWidget(MainWindow)
+        self.verticalLayoutWidget_2.setGeometry(QtCore.QRect(20, 160, 531, 131))
+        self.verticalLayoutWidget_2.setObjectName(_fromUtf8("verticalLayoutWidget_2"))
+        self.verticalLayout_2 = QtGui.QVBoxLayout(self.verticalLayoutWidget_2)
+        self.verticalLayout_2.setObjectName(_fromUtf8("verticalLayout_2"))
+        self.groupBox_2 = QtGui.QGroupBox(self.verticalLayoutWidget_2)
+        self.groupBox_2.setObjectName(_fromUtf8("groupBox_2"))
+        self.label_3 = QtGui.QLabel(self.groupBox_2)
+        self.label_3.setGeometry(QtCore.QRect(10, 40, 241, 20))
+        self.label_3.setObjectName(_fromUtf8("label_3"))
+        self.label_4 = QtGui.QLabel(self.groupBox_2)
+        self.label_4.setGeometry(QtCore.QRect(10, 70, 111, 20))
+        self.label_4.setObjectName(_fromUtf8("label_4"))
+        self.pushButton_2 = QtGui.QPushButton(self.groupBox_2)
+        self.pushButton_2.setGeometry(QtCore.QRect(250, 30, 115, 30))
+        self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
+        self.comboBox_2 = QtGui.QComboBox(self.groupBox_2)
+        self.comboBox_2.setGeometry(QtCore.QRect(250, 70, 111, 30))
+        self.comboBox_2.setObjectName(_fromUtf8("comboBox_2"))
+        self.comboBox_2.addItem(_fromUtf8(""))
+        self.comboBox_2.addItem(_fromUtf8(""))
+        self.checkBox_2 = QtGui.QCheckBox(self.groupBox_2)
+        self.checkBox_2.setGeometry(QtCore.QRect(430, 100, 91, 25))
+        self.checkBox_2.setObjectName(_fromUtf8("checkBox_2"))
+        self.verticalLayout_2.addWidget(self.groupBox_2)
+        self.progressBar = QtGui.QProgressBar(MainWindow)
+        self.progressBar.setGeometry(QtCore.QRect(20, 500, 521, 23))
+        self.progressBar.setProperty("value", 24)
+        self.progressBar.setObjectName(_fromUtf8("progressBar"))
+        self.lineEdit = QtGui.QLineEdit(MainWindow)
+        self.lineEdit.setGeometry(QtCore.QRect(130, 300, 341, 30))
+        self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
+        self.label_5 = QtGui.QLabel(MainWindow)
+        self.label_5.setGeometry(QtCore.QRect(20, 306, 111, 20))
+        self.label_5.setObjectName(_fromUtf8("label_5"))
+        self.pushButton_3 = QtGui.QPushButton(MainWindow)
+        self.pushButton_3.setGeometry(QtCore.QRect(480, 300, 61, 30))
+        self.pushButton_3.setObjectName(_fromUtf8("pushButton_3"))
+        self.tableView = QtGui.QTableView(MainWindow)
+        self.tableView.setGeometry(QtCore.QRect(20, 400, 521, 91))
+        self.tableView.setObjectName(_fromUtf8("tableView"))
+        self.label_6 = QtGui.QLabel(MainWindow)
+        self.label_6.setGeometry(QtCore.QRect(20, 380, 81, 20))
+        self.label_6.setObjectName(_fromUtf8("label_6"))
+        self.radioButton = QtGui.QRadioButton(MainWindow)
+        self.radioButton.setGeometry(QtCore.QRect(30, 340, 134, 25))
+        self.radioButton.setObjectName(_fromUtf8("radioButton"))
+        self.radioButton_2 = QtGui.QRadioButton(MainWindow)
+        self.radioButton_2.setGeometry(QtCore.QRect(150, 340, 134, 25))
+        self.radioButton_2.setObjectName(_fromUtf8("radioButton_2"))
+        self.radioButton_3 = QtGui.QRadioButton(MainWindow)
+        self.radioButton_3.setGeometry(QtCore.QRect(300, 340, 134, 25))
+        self.radioButton_3.setObjectName(_fromUtf8("radioButton_3"))
+        self.radioButton_4 = QtGui.QRadioButton(MainWindow)
+        self.radioButton_4.setGeometry(QtCore.QRect(410, 340, 134, 25))
+        self.radioButton_4.setObjectName(_fromUtf8("radioButton_4"))
+        self.pushButton_4 = QtGui.QPushButton(MainWindow)
+        self.pushButton_4.setGeometry(QtCore.QRect(20, 540, 141, 30))
+        self.pushButton_4.setObjectName(_fromUtf8("pushButton_4"))
+        self.pushButton_5 = QtGui.QPushButton(MainWindow)
+        self.pushButton_5.setGeometry(QtCore.QRect(420, 540, 115, 30))
+        self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(_translate("MainWindow", "A7 HDF5 Dataset Creator", None))
+        self.groupBox.setTitle(_translate("MainWindow", "X Coordinate (Input)", None))
+        self.pushButton.setText(_translate("MainWindow", "Choose Files", None))
+        self.label.setText(_translate("MainWindow", "Select the files for the X axis", None))
+        self.label_2.setText(_translate("MainWindow", "Type of Data:", None))
+        self.comboBox.setItemText(0, _translate("MainWindow", "Images", None))
+        self.comboBox.setItemText(1, _translate("MainWindow", "more later..", None))
+        self.checkBox.setText(_translate("MainWindow", "include", None))
+        self.groupBox_2.setTitle(_translate("MainWindow", "Y Coordinate (Output)", None))
+        self.label_3.setText(_translate("MainWindow", "Select the files for the Y axis", None))
+        self.label_4.setText(_translate("MainWindow", "Type of Data:", None))
+        self.pushButton_2.setText(_translate("MainWindow", "Choose Files", None))
+        self.comboBox_2.setItemText(0, _translate("MainWindow", "Labels", None))
+        self.comboBox_2.setItemText(1, _translate("MainWindow", "Multiclass (soon)", None))
+        self.checkBox_2.setText(_translate("MainWindow", "include", None))
+        self.label_5.setText(_translate("MainWindow", "Dataset File", None))
+        self.pushButton_3.setText(_translate("MainWindow", "...", None))
+        self.label_6.setText(_translate("MainWindow", "Preview", None))
+        self.radioButton.setText(_translate("MainWindow", "HDF5 File", None))
+        self.radioButton_2.setText(_translate("MainWindow", "NumPy Array", None))
+        self.radioButton_3.setText(_translate("MainWindow", "DAT file", None))
+        self.radioButton_4.setText(_translate("MainWindow", "Pickle file", None))
+        self.pushButton_4.setText(_translate("MainWindow", "Create Dataset", None))
+        self.pushButton_5.setText(_translate("MainWindow", "Exit", None))
+
