@@ -9,3 +9,7 @@ Sometimes data might require being collected into one dataset file. This program
 ## Notes:
 
 this software is under construction
+
+## Screenshots:
+
+![screen](https://github.com/blackvitriol/python/blob/master/datascience_ML/data_preparation/screenshot.png?raw=true)
