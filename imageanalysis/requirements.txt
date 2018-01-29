@@ -1,3 +1,0 @@
-
-
-#you might also need Visual C++ 14.0 from here: https://go.microsoft.com/fwlink/?LinkId=746572
