@@ -5,5 +5,5 @@ You must know that extreme hard and sophisticated logic is the same as randomly 
 
 ### Screens
 
-![LIFO Notebook Stack](gallry/lifostack.gif)
+![LIFO Notebook Stack](gallery/lifostack.gif)
 
