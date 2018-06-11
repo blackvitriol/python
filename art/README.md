@@ -5,5 +5,5 @@ You must know that extreme hard and sophisticated logic is the same as randomly 
 
 ### Screens
 
-![Pong results](results/results_pong.png)
+![LIFO Notebook Stack](gallry/lifostack.gif)
 
